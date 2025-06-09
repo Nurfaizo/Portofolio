@@ -1,0 +1,84 @@
+/*
+Custom Styles for Portfolio Detail Page
+*/
+
+:root {
+    --primary-color: #00ff8c;
+    --dark-color: #1a1a1a;
+    --secondary-dark-color: #2c2c2c;
+    --light-color: #f4f4f4;
+    --secondary-light-color: #cccccc;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+#portfolio-details {
+    padding: 60px 0;
+}
+
+.portfolio-details .portfolio-details-slider img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.portfolio-details .portfolio-info {
+    padding: 30px;
+    background-color: var(--secondary-dark-color);
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.2);
+}
+
+.portfolio-details .portfolio-info h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--dark-color);
+}
+
+.portfolio-details .portfolio-info ul {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+}
+
+.portfolio-details .portfolio-info ul li + li {
+    margin-top: 10px;
+}
+
+.portfolio-details .portfolio-info strong {
+    color: var(--primary-color);
+}
+
+.portfolio-details .portfolio-description h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+.portfolio-details .portfolio-description p {
+    padding: 0;
+    color: var(--secondary-light-color);
+    line-height: 1.8;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 40px;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.back-link i {
+    margin-right: 5px;
+}
+
+.back-link:hover {
+    color: var(--light-color);
+}
